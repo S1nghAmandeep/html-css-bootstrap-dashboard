@@ -1,3 +1,7 @@
+
+img {max-width: 100%; 
+}
+
 .app {
     display: flex;
     height: 100vh;
@@ -6,15 +10,92 @@
     padding: 10px;
 }
 
-.search-bar {
-    overflow: hidden;
-    padding: 20px;
-    border: 1px solid orange;
+/* sezione asidebar */
+
+.search-bar-body > * ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.app-contant {
+.search-bar-body {
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.small-logo {
+    width: 50px;
+    display: block;
+}
+
+.search-bar {
+    border: none;
+    background-color: rgb(215, 215, 215);
+    width: 100%;
+    border-radius: 5px;
+    line-height: 35px;
+}
+
+::placeholder {
+    padding-left: 30px;
+}
+
+/* ::placeholder::before {
+    content: "";
+    f002;
+} */
+
+.bell-icon {
+    color: #FF8F00;
+}
+
+
+/* sezione contenuto header e main */
+.app-body {
     border: 1px solid blue;
     padding: 20px;
     flex-grow: 1;
     overflow: hidden;
+    display: flex;
 }
+
+/* inizio header */
+
+.nav_bar {
+    width: 60px;
+    border: 1px solid rgb(131, 131, 0);
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.app-contant {
+    flex-grow: 1;
+    border: 1px solid blueviolet;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .nav_bar {
+        width: 150px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+ }

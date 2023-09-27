@@ -6,8 +6,6 @@ img {max-width: 100%;
     display: flex;
     height: 100vh;
     flex-direction: column;
-    border: 1px solid black;
-    padding: 10px;
 }
 
 /* sezione asidebar */
@@ -16,6 +14,11 @@ img {max-width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    
 }
 
 .search-bar-body {
@@ -37,7 +40,7 @@ img {max-width: 100%;
 }
 
 ::placeholder {
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 /* ::placeholder::before {
@@ -49,11 +52,8 @@ img {max-width: 100%;
     color: #FF8F00;
 }
 
-
 /* sezione contenuto header e main */
 .app-body {
-    border: 1px solid blue;
-    padding: 20px;
     flex-grow: 1;
     overflow: hidden;
     display: flex;
@@ -66,7 +66,16 @@ img {max-width: 100%;
     border: 1px solid rgb(131, 131, 0);
     flex-shrink: 0;
     overflow: hidden;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-color: #12283F;
 }
+
+.icon-admin {
+    margin-top: auto;
+}
+
+/* contenuto del app */
 
 .app-contant {
     flex-grow: 1;

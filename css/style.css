@@ -16,9 +16,8 @@ img {max-width: 100%;
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-    
+.search-bar-body > * a {
+    color: currentColor;   
 }
 
 .search-bar-body {
@@ -75,12 +74,33 @@ a {
     margin-top: auto;
 }
 
-/* contenuto del app */
+/* inizio sezione contenuto app */
 
 .app-contant {
     flex-grow: 1;
     border: 1px solid blueviolet;
 }
+
+/* .badge-info [class^='col'] {
+	min-height: 100px;
+	padding: 10px;
+    border: 1px dashed black;
+} */
+
+.badge-info {
+    background-color: #1B72E8;
+}
+.badge-tag {
+    background-color: rgba(1, 1, 1, 0.1);
+    display: inline-block;
+    line-height: 25px;
+    padding: 0 10px 1px;
+    border-radius: 100px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

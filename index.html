@@ -11,26 +11,45 @@
 <body>
     <div class="app">
         <aside class="search-bar-body">
-            <div class="row align-items-center">
-                <div class="col-auto">
-                    <figure class="d-none d-md-block mb-0"><img class="big-logo" src="./img/logo.svg" alt=""></figure>
-                    <figure class="d-md-none mb-0"><img class="small-logo" src="./img/mobile-logo.png" alt=""></figure>
-                </div>
-                <div class="col">
-                    <input class="search-bar" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
-                </div>
-                <div class="col-auto">
-                    <ul class="d-flex gap-4">
-                        <li class="d-none d-md-block"><i class="fa-solid fa-list"></i></li>
-                        <li class="d-none d-md-block"><i class="fa-solid fa-circle-question"></i></li>
-                        <li class="d-none d-md-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                        <li class="bell-icon"><i class="fa-solid fa-bell"></i></li>
-                    </ul>
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <figure class="d-none d-md-block mb-0"><img class="big-logo" src="./img/logo.svg" alt=""></figure>
+                        <figure class="d-md-none mb-0"><img class="small-logo" src="./img/mobile-logo.png" alt=""></figure>
+                    </div>
+                    <div class="col">
+                        <input class="search-bar" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
+                    <div class="col-auto">
+                        <ul class="d-flex gap-4">
+                            <li class="d-none d-md-block"><a href="#"><i class="fa-solid fa-list"></i></a></li>
+                            <li class="d-none d-md-block"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+                            <li class="d-none d-md-block"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                            <li class="bell-icon"><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </aside>
         <div class="app-body">
-            <header class="nav_bar"></header>
+            <header class="nav_bar text-light">
+                <div class="container-fluid">
+                    <div class="d-flex flex-column align-items-center">
+                        <div>
+                            <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-house"></i><span class="d-none d-md-inline ms-2">Home</span></button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-md-inline ms-2">Stats</span></button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-signal"></i><span class="d-none d-md-inline ms-2">Signals</span></button>
+                        </div>
+                        <div class="icon-admin">
+                            <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-gear"></i></i><span class="d-none d-md-inline ms-2">Admin</span></button>
+                        </div>
+                    </div>
+                </div>
+            </header>
             <div class="app-contant"></div>
         </div>
     </div>

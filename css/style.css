@@ -39,13 +39,12 @@ img {max-width: 100%;
 }
 
 ::placeholder {
-    padding-left: 25px;
+    padding-left: 5px;
+    font-size: 13px;
+    font-family: fontawesome;
+    color: rgb(152, 151, 151);
 }
 
-/* ::placeholder::before {
-    content: "";
-    f002;
-} */
 
 .bell-icon {
     color: #FF8F00;
@@ -86,7 +85,6 @@ img {max-width: 100%;
 
 .app-contant {
     flex-grow: 1;
-    border: 1px solid blueviolet;
     overflow: auto;
 }
 
@@ -111,7 +109,7 @@ img {max-width: 100%;
 
 
 .first-cell {
-    width: 50%;
+    width: 30%;
 }
 
 th {

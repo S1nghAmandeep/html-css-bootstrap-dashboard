@@ -116,6 +116,12 @@ th {
     margin-right: 8px;
 }
 
+/* inizio sezione offcanvas */
+
+.offcanvas.space {
+    width: 100%;
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -134,11 +140,15 @@ th {
     .first-cell {
         width: 50%;
     }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+    .offcanvas.space {
+        width: 50%;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */

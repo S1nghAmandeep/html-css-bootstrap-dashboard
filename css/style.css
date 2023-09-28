@@ -21,7 +21,6 @@ img {max-width: 100%;
 }
 
 .search-bar-body {
-    overflow: hidden;
     padding: 15px 0;
     flex-shrink: 0;
 }
@@ -75,6 +74,14 @@ img {max-width: 100%;
     margin-top: auto;
 }
 
+.nav_bar_icons:hover {
+    background-color: rgba(209, 209, 209, 0.2);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 500ms;
+}
+
 /* inizio sezione contenuto app */
 
 .app-contant {
@@ -116,6 +123,7 @@ th {
     margin-right: 8px;
 }
 
+
 /* inizio sezione offcanvas */
 
 .offcanvas.space {
@@ -133,9 +141,7 @@ th {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .nav_bar {
-        width: 150px;
-    }
+
 
     .first-cell {
         width: 50%;
@@ -146,8 +152,16 @@ th {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+    .nav_bar {
+        width: 150px;
+    }
+
     .offcanvas.space {
         width: 50%;
+    }
+
+    .nav_bar_icons:hover {
+        padding: 5px 15px;
     }
  }
 

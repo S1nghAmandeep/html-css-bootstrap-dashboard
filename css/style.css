@@ -53,6 +53,7 @@ img {
 }
 
 /* sezione contenuto header e main */
+
 .app-body {
     flex-grow: 1;
     overflow: hidden;
@@ -82,6 +83,11 @@ img {
     border-radius: 5px;
     transition: 500ms;
 }
+
+.icon-states {
+    margin-left: 5px;
+}
+
 
 /* inizio sezione contenuto app */
 

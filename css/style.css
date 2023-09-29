@@ -1,11 +1,13 @@
 
-img {max-width: 100%; 
+img {
+    max-width: 100%; 
 }
 
 .app {
     display: flex;
     height: 100vh;
     flex-direction: column;
+    background-color: #F8F9FA;
 }
 
 /* sezione asidebar */
@@ -21,8 +23,9 @@ img {max-width: 100%;
 }
 
 .search-bar-body {
-    padding: 15px 0;
     flex-shrink: 0;
+    margin: 15px 0;
+    background-color: white;
 }
 
 .small-logo {
@@ -32,7 +35,6 @@ img {max-width: 100%;
 
 .search-bar {
     border: none;
-    background-color: rgb(215, 215, 215);
     width: 100%;
     border-radius: 5px;
     line-height: 35px;
@@ -103,8 +105,6 @@ img {max-width: 100%;
 }
 
 
-
-
 /* inizio contenuto pagina */
 
 
@@ -120,7 +120,6 @@ th {
     width: 30px;
     margin-right: 8px;
 }
-
 
 /* inizio sezione offcanvas */
 
@@ -159,7 +158,7 @@ th {
     }
 
     .nav_bar_icons:hover {
-        padding: 5px 15px;
+        padding: 10px 15px;
     }
  }
 

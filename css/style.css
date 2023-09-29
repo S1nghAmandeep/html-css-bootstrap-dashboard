@@ -42,8 +42,9 @@ img {
 
 .search-icon {
     position: absolute;
-    left: 17px;
-    top: 12px;
+    left: 28px;
+    font-size: 20px;
+    top: 9px;
     pointer-events: none;
 }
 

@@ -40,13 +40,12 @@ img {
     line-height: 35px;
 }
 
-::placeholder {
-    padding-left: 5px;
-    font-size: 13px;
-    font-family: fontawesome;
-    color: rgb(152, 151, 151);
+.search-icon {
+    position: absolute;
+    left: 17px;
+    top: 12px;
+    pointer-events: none;
 }
-
 
 .bell-icon {
     color: #FF8F00;
